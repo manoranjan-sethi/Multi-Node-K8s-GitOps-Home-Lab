@@ -1,4 +1,4 @@
-# DevSecOps Homelab Infrastructure
+# Homelab Infrastructure
 
 A compact 3-node Kubernetes cluster for DevSecOps experimentation running on Ubuntu 24.04 (i5-8400 | 32GB RAM).
 
@@ -51,3 +51,13 @@ The Home Lab is a Kubernetes setup running via **kubeadm** inside **Multipass** 
 - **Orchestration:** Kubeadm (v1.30+)
 - **GitOps:** Argo CD
 - **Observability:** Prometheus, Grafana, Node Exporter
+
+## Screenshots
+
+ Multipass Cluster List 
+
+![Dashboard](Pic/Pasted%20image.png)
+
+ Cluster View
+
+![Cluster View](Pic/Pasted%20image%20(2).png)
