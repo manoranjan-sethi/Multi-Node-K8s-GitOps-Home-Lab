@@ -1,4 +1,4 @@
-# Homelab Infrastructure
+# Multi-Node K8s GitOps Home-Lab
 
 A compact 3-node Kubernetes cluster for DevSecOps experimentation running on Ubuntu 24.04 (i5-8400 | 32GB RAM).
 
