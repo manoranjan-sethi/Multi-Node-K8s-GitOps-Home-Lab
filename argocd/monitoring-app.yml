@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/manoranjan-sethi/Multi-Node-K8s-GitOps-Home-Lab.git
     targetRevision: main
-    path: applications/monitoring/charts  
+    path: application/monitoring/charts
   destination:
     server: https://kubernetes.default.svc
     namespace: monitoring
