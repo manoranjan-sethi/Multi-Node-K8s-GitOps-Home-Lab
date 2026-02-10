@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Manoranjan-Sethi/k8s-homelab-infrastructure.git
+    repoURL: https://github.com/manoranjan-sethi/Multi-Node-K8s-GitOps-Home-Lab.git
     targetRevision: HEAD
     path: applications/monitoring/charts  
   destination:
