@@ -1,0 +1,9 @@
+apiVersion: v2
+name: monitoring-stack
+description: Prometheus and Grafana for the Homelab
+type: application
+version: 1.0.0
+dependencies:
+  - name: kube-prometheus-stack
+    version: "61.3.1" # Latest stable version as of 2026
+    repository: "https://prometheus-community.github.io/helm-charts"

@@ -16,8 +16,8 @@
 3. Expose the Argo CD UI locally
 
     ```bash
-    kubectl port-forward svc/argocd-server -n argocd 8080:443 --address 0.0.0.0
-    # UI will be available at: http://localhost:8080
+    kubectl port-forward svc/argocd-server -n argocd 8001:443 --address 0.0.0.0
+    # UI will be available at: http://localhost:8001
     ```
 
 4. Verify Argo CD
